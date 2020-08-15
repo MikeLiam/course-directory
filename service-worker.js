@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MikeLiam/course-directory/precache-manifest.15251e794c725a120a038568fc4cdc1a.js"
+  "/course-directory/precache-manifest.57504aadd3a9f13a4de7f3895cc4083a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MikeLiam/course-directory/index.html", {
+workbox.routing.registerNavigationRoute("/course-directory/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
